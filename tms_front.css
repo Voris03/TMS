@@ -2,19 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet');
 
 .tabs {
-    width: 1170px;
-    margin: 0 15px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .tabs__tab {
-    display: flex;
-    align-items: left;
+    font-size: 14px;
+    line-height: 19px;  
+    margin-bottom: -1px;  
+}
+
+.tabs__button {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Releway', sans-serif;
+    border: none;
+    background-color: transparent;
     width: 203px;
     height: 40px;
 }
 
-.tabs__button {
-   font-family: 'Releway', sans-serif;
+.tabs__button:first-child{
+    border: 1px solid #86878B;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom-color: #FFFFFF;         
 }
 
 .tabs__container {
@@ -92,8 +104,8 @@
 
 .awesome {
     font-family: 'Open Sans', sans-serif;
-    width: 1170px;
-    margin: 0 15px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .awesome__title {
