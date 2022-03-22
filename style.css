@@ -1,12 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet');
 
+/* Header start */
+.header {
+    width: 1510px;
+    height: 75px;
+}
+
+.header__bg {
+    width: 1510px;
+    height: 75px;
+    background-color: #000000;
+}
+
+.header__axit {
+    display: flex;
+    flex-direction: row;
+    width: 183px;
+    height: 75px;
+}
+
+.header__ax {
+    font-family: "Releway", sans-serif;
+    font-size: 54px;
+    color: #FFFFFF;
+}
+
+.header__it {
+    font-family: "Releway", sans-serif;
+    font-size: 54px;
+    color: #EC7979;
+}
+/* Header end */
+
+
+
 /* Baner start */
 .baner {
     width: 1510px;
     height: 1026px;
     margin: 0 auto;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Kursi/img/AXIT.png);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../TMS/image/AXIT.png);
     display: flex;
     flex-direction: row;
 }
@@ -25,13 +59,13 @@
 }
 
 .baner__container-title:first-child {
-    font-size: 56px;
+    font-size: 64px;
     color: #FFFFFF;
     font-family: "Releway", sans-serif;
 }
 
 .baner__container-title:last-child {
-    font-size: 56px;
+    font-size: 64px;
     color: #EC7979;
     font-family: "Releway", sans-serif;
 }
@@ -165,6 +199,7 @@
     border-radius: 0px 0px 10px 10px;
 }
 /* Baner end */
+
 
 
 /* Social start */
@@ -693,12 +728,13 @@
 /* Reviews end */
 
 
+
 /* Stylish start */
 .stylish {
     margin-top: 64px;
     width: 1510px;
     height: 442px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Kursi/img/image.png)
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../TMS/image/image.png)
 }
 
 .stylish__title-wrapper {
@@ -752,3 +788,53 @@
     margin: 73px 570px 50px 570px;
 }
 /* Stylish end */
+
+
+
+/*Contact start*/
+.contact {
+    width: 1170px;
+    height: 622px;
+    margin: 0 auto;
+}
+
+.contact__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__block-title-wrapper {
+    width: 1170px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__block-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+}
+
+.contact__block-line {
+    width: 170px;
+    height: 1px;
+    border-top: 1px solid #EC7979;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.contact__block-text {
+    width: 1170px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #86878B;
+}
+
+.contact__container {
+    display: flex;
+}
+/*Contact end*/

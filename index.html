@@ -4,11 +4,30 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TMS</title>
-        <link href="../TMS/tms_front.css" rel="stylesheet">
+        <link href="../TMS/style.css" rel="stylesheet">
         <link href="../TMS/tms_front_reset.css" rel="stylesheet">
-        <link href="../TMS/Icon/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../TMS/style_reset.css" rel="stylesheet">
     </head>
     <body>
+<!--Header start-->
+        <header class="header">
+            <div class="header__bg">
+                <div class="header__axit">
+                    <p class="header__ax">
+                        AX
+                    </p>
+                    <p class="header__it">
+                        IT
+                    </p>
+                </div>
+                <div class="header__menu">
+                </div>
+            </div>
+        </header>
+<!--Header end-->
+
+
+
 <!--Baner start-->
         <section class="baner">
             <div class="baner__container">
@@ -140,7 +159,7 @@
                     </div>
                 </div>
                 <div class="tabs__image-wrapper">
-                    <img src="../Kursi/img/new.png" alt="new" class="tabs__image">
+                    <img src="../TMS/image/new.png" alt="new" class="tabs__image">
                 </div>
             </div>
         </section>
@@ -162,7 +181,7 @@
             <div class="awesome__container">
                 <div class="awesome__block">
                     <div class="awesome__icon-wrapper">
-                        <img src="../Kursi/img/lampa.png" alt="lampa" class="awesome__icon">
+                        <img src="../TMS/image/lampa.png" alt="lampa" class="awesome__icon">
                     </div>
                     <h4 class="awesome__block-title">
                         Thoughtful Design
@@ -177,7 +196,7 @@
                 </div>
                 <div class="awesome__block">
                     <div class="awesome__icon-wrapper">
-                        <img src="../Kursi/img/Klava.png" alt="Klava" class="awesome__icon">
+                        <img src="../TMS/image/Klava.png" alt="Klava" class="awesome__icon">
                     </div>
                     <h4 class="awesome__block-title">
                         Thoughtful Design
@@ -192,7 +211,7 @@
                 </div>
                 <div class="awesome__block">
                     <div class="awesome__icon-wrapper">
-                        <img src="../Kursi/img/molniya.png" alt="molniya" class="awesome__icon">
+                        <img src="../TMS/image/molniya.png" alt="molniya" class="awesome__icon">
                     </div>
                     <h4 class="awesome__block-title">
                         Thoughtful Design
@@ -468,5 +487,41 @@
             </button>
         </section>
 <!--Stylish end-->
+<!--Contact start-->
+        <section class="contact">
+            <div class="contact__block">
+                <div class="contact__block-title-wrapper">
+                    <p class="contact__block-title">
+                        CONTACT US
+                    </p>
+                </div>
+                <div class="contact__block-line"></div>
+                <p class="contact__block-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+            </div>
+            <div class="contact__container">
+                <div class="contact__container-block-wrapper">
+                    <div class="contact__container-block">
+                        <label id="name">Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="contact__container-block">
+                        <label id="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="contact__container-block">
+                        <label id="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                </div>
+                <div>
+                    <label id="message">Message</label>
+                    <input type="text" id="message">
+                </div>
+            </div>
+            <button class="contact__button">Send Message</button>
+        </section>
+<!--Contact end-->
     </body>
 </html>
