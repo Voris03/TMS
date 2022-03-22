@@ -836,5 +836,58 @@
 
 .contact__container {
     display: flex;
+    margin-top: 90px;
+    margin-left: 0 auto;
+}
+
+.contact__container-block-wrapper:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 200px;
+}
+
+.contact__container-block-wrapper:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 200px;
+}
+
+.contact__container-block {
+    width: 600px;
+}
+
+.contact__container-label {
+    width: 570px;
+    color: #BDBDBD;
+    font-family: "Releway", sans-serif;
+    font-size: 14px;
+}
+
+.contact__container-input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 570px;
+}
+
+.contact__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 370px;
+    height: 58px;
+    background-color: #EC7979;
+    border: none;
+    margin-top: 50px;
+    margin-left: 400px;
+
+    font-size: 18px;
+    font-family: "Releway", sans-serif;
+    color: #FFFFFF;
 }
 /*Contact end*/
