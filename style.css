@@ -274,48 +274,13 @@
 .social__icon {
     width: 70px;
     height: 70px;
-}
-
-.fa-facebook {
     color: #cccccc;
-    margin-left: 30px;
-}
-
-.fa-twitter {
-    color: #cccccc;
-    margin-left: 30px;
-}
-
-.fa-linkedin {
-    color: #cccccc;
-    margin-left: 30px;
-}
-
-.fa-pinterest {
-    color: #cccccc;
-    margin-left: 30px;
-}
-
-.fa-instagram {
-    color: #cccccc;
-    margin-left: 30px;
-}
-
-.fa-github {
-    color: #cccccc;
-    margin-left: 30px;
-}
-
-.fa-rss {
-    color: #cccccc;
-    margin-left: 30px;
 }
 /* Social end */
 
 
 
 /* Tabs start */
-
 .tabs {
     width: 1170px;
     margin: 0 auto;
@@ -414,17 +379,14 @@
     border: 0px;
 }
 
-.tabs__image-wrapper {
-    height: 500px;
+.tabs__image {
     width: 470px;
 }
-
 /* Tabs end */
 
 
 
 /* Awesome start */
-
 .awesome {
     font-family: 'Open Sans', sans-serif;
     width: 1170px;
@@ -488,13 +450,11 @@
     margin-bottom: 47px;
     
 }
-
 /* Awesome end */
 
 
 
 /* Pricing start */
-
 .pricing {
     width: 1508px;
     height: 900px;
@@ -617,13 +577,11 @@
     font-size: 18px;
     color: #86878B;
 }
-
 /* Pricing end */
 
 
 
 /* Reviews start */
-
 .reviews {
     width: 1171px;
     height: 630px;
@@ -933,6 +891,7 @@
 .footer__icon {
     width: 53px;
     height: 53px;
+    color: #cccccc;
 }
 
 .footer__subtext {
