@@ -3,7 +3,7 @@
 
 /* Header start */
 .header {
-    width: 1510px;
+    width: 100%;
     height: 75px;
     background-color: #000000;
     display: flex;
@@ -55,9 +55,9 @@
 
 /* Baner start */
 .baner {
-    width: 1510px;
+    width: 100%;
     height: 1026px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../TMS/image/AXIT.png);
     display: flex;
     flex-direction: row;
@@ -223,10 +223,8 @@
 /* Social start */
 
 .social {
-    width: 1510px;
-    height: 140px;
+    width: 100%;
     background-color: #F8EFEF;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     margin-bottom: 99px;
@@ -235,7 +233,7 @@
 .social__container {
     width: 470px;
     height: 140px;
-    padding-left: 170px;
+    margin: 0 auto;
 }
 
 .social__title-wrapper {
@@ -269,6 +267,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
+    margin-left: 30px;
 }
 
 .social__icon {
@@ -285,7 +284,7 @@
     width: 1170px;
     margin: 0 auto;
     margin-bottom: 50px;
-    padding-left: 170px;
+    margin-left: 170px;
 }
 
 .tabs__tab {
@@ -393,7 +392,6 @@
     height: 665px;
     margin: 0 auto;
     margin-bottom: 58px;
-    padding-left: 170px;
 }
 
 .awesome__title {
@@ -456,7 +454,7 @@
 
 /* Pricing start */
 .pricing {
-    width: 1508px;
+    width: 100%;
     height: 900px;
     background-color: #F5F5F5;
     margin: 0 auto;
@@ -499,7 +497,7 @@
     flex-direction: row;
     width: 1200px;
     height: 530px;
-    margin: 0px 170px 50px 168px;
+    margin: 0 auto;
 }
 
 .pricing__block {
@@ -708,7 +706,7 @@
 /* Stylish start */
 .stylish {
     margin-top: 64px;
-    width: 1510px;
+    width: 100%;
     height: 442px;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../TMS/image/image.png)
 }
@@ -719,7 +717,7 @@
     justify-content: center;
     width: 1170px;
     height: 150px;
-    margin: 50px 171px 0px 169px;
+    margin: 0 auto;
 }
 
 .stylish__title {
@@ -740,9 +738,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 170px;
     width: 1169px;
     height: 21px;
+    margin: 0 auto;
 }
 
 .stylish__text {
@@ -761,7 +759,10 @@
     background-image: none; 
     background-color: transparent;
     position: absolute;
-    margin: 73px 570px 50px 570px;
+    margin-top: 73px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 /* Stylish end */
 
@@ -813,7 +814,6 @@
 .contact__container {
     display: flex;
     margin-top: 90px;
-    margin-left: 0 auto;
 }
 
 .contact__container-block-wrapper:first-child {
@@ -872,7 +872,7 @@
 
 /*Footer start*/
 .footer {
-    width: 1510px;
+    width: 100%;
     height: 164px;
     background-color: #000000;
     display: flex;
