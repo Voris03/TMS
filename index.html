@@ -4,9 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TMS</title>
-        <link href="../TMS/style.css" rel="stylesheet">
-        <link href="../TMS/Icon/css/font-awesome.min.css" rel="stylesheet">
-        <link href="../TMS/style_reset.css" rel="stylesheet">
+        <link href="./style.css" rel="stylesheet">
+        <link href="./style_mobil.css" rel="stylesheet">
+        <link href="./Icon/css/font-awesome.min.css" rel="stylesheet">
+        <link href="./style_reset.css" rel="stylesheet">
     </head>
     <body>
 <!--Header start-->
@@ -20,21 +21,24 @@
                 </p>
             </div>
             <div class="header__menu-wrapper">
-                <p class="header__menu">
+                <a class="header__menu">
                     Features
-                </p>
-                <p class="header__menu">
+                </a>
+                <a class="header__menu">
                     About
-                </p>
-                <p class="header__menu">
+                </a>
+                <a class="header__menu">
                     Pricing
-                </p>
-                <p class="header__menu">
+                </a>
+                <a class="header__menu">
                     Reviews
-                </p>
-                <p class="header__menu">
+                </a>
+                <a class="header__menu">
                     Contact
-                </p>
+                </a>
+            </div>
+            <div class="header__burger-wrapper">
+                <img src="./image/burger.png" alt="burger" class="header__burger">
             </div>
         </header>
 <!--Header end-->
@@ -43,56 +47,49 @@
 
 <!--Baner start-->
         <section class="baner">
-            <div class="baner__container">
-                <div class="baner__container-title-wrapper">
-                    <p class="baner__container-title">
-                        AX
-                    </p>
-                    <p class="baner__container-title">
-                        IT
-                    </p>
-                </div>
-                <div class="baner__container-subtitle-wrapper">
-                    <p class="baner__container-subtitle">
-                        MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
-                    </p>
-                </div>
-                <div class="baner__container-line"></div>
-                <p class="baner__container-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </p>
-                <button class="baner__container-button">Download</button>
-            </div>
-            <div class="baner__block-wrapper">
-                <div class="baner__block">
-                    <div class="baner__block-title-wrapper">
-                        <p class="baner__block-title">
-                            TRY YOUR
+            <div class="baner-wrapper">
+                <div class="baner__container">
+                    <div class="baner__container-title-wrapper">
+                        <p class="baner__container-title">
+                            AX
                         </p>
-                        <p class="baner__block-title-free">
-                            FREE
-                        </p>
-                        <p class="baner__block-title">
-                            TRIAL TODAY
+                        <p class="baner__container-title">
+                            IT
                         </p>
                     </div>
-                    <div class="baner__block-container-wrapper">
-                        <div class="baner__block-container">
-                            <label for="name" class="baner__block-label" >Name</label>
-                            <input type="text" class="baner__block-input" id="name">
+                    <div class="baner__container-subtitle-wrapper">
+                        <p class="baner__container-subtitle">
+                            MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+                        </p>
+                    </div>
+                    <div class="baner__container-line"></div>
+                    <p class="baner__container-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                    <button class="baner__container-button">Download</button>
+                </div>
+                <div class="baner__block-wrapper">
+                    <div class="baner__block">
+                        <div class="baner__block-title-wrapper">
+                            <p class="baner__block-title">
+                                TRY YOUR
+                            </p>
+                            <p class="baner__block-title-free">
+                                FREE
+                            </p>
+                            <p class="baner__block-title">
+                                TRIAL TODAY
+                            </p>
                         </div>
-                        <div class="baner__block-container">
-                            <label for="email" class="baner__block-label">Email</label>
-                            <input type="email" class="baner__block-input" id="email">
-                        </div>
-                        <div class="baner__block-container">
-                            <label for="password" class="baner__block-label">Password</label>
-                            <input type="password" class="baner__block-input" id="password">
+                        <div class="baner__block-container-wrapper">                          
+                            <input type="text" class="baner__block-input" placeholder="Name">                           
+                            <input type="email" class="baner__block-input" placeholder="Email">                           
+                            <input type="password" class="baner__block-input" placeholder="Password">
                         </div>
                     </div>
-                </div>
-                <div class="baner__block-button-wrapper">
-                    <button class="baner__block-button">Get Started</button>
+                    <div class="baner__block-button-wrapper">
+                        <button class="baner__block-button">Get Started</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -138,6 +135,29 @@
                     <i class="fa fa-rss fa-3x"></i>
                 </div>
             </div>
+            <div class="social__block-mobil">
+                <div class="social__icon">
+                    <i class="fa fa-facebook fa-1x"></i>
+                </div>
+                <div class="social__icon">
+                    <i class="fa fa-twitter fa-1x"></i>
+                </div>
+                <div class="social__icon">
+                    <i class="fa fa-linkedin fa-1x"></i>
+                </div>
+                <div class="social__icon">
+                    <i class="fa fa-pinterest fa-1x"></i>
+                </div>
+                <div class="social__icon">
+                    <i class="fa fa-instagram fa-1x"></i>
+                </div>
+                <div class="social__icon">
+                    <i class="fa fa-github fa-1x"></i>
+                </div>
+                <div class="social__icon">
+                    <i class="fa fa-rss fa-1x"></i>
+                </div>
+            </div>
         </section>
 <!--Social end-->
 
@@ -171,7 +191,7 @@
                         <button class="tabs__download">Download</button>
                     </div>
                 </div>
-                <img src="../TMS/image/new.png" alt="new" class="tabs__image">
+                <img src="../image/new.png" alt="new" class="tabs__image">
             </div>
         </section>
 <!--Tabs end-->
@@ -192,7 +212,7 @@
             <div class="awesome__container">
                 <div class="awesome__block">
                     <div class="awesome__icon-wrapper">
-                        <img src="../TMS/image/lampa.png" alt="lampa" class="awesome__icon">
+                        <img src="../image/lampa.png" alt="lampa" class="awesome__icon">
                     </div>
                     <h4 class="awesome__block-title">
                         Thoughtful Design
@@ -207,7 +227,7 @@
                 </div>
                 <div class="awesome__block">
                     <div class="awesome__icon-wrapper">
-                        <img src="../TMS/image/Klava.png" alt="Klava" class="awesome__icon">
+                        <img src="../image/Klava.png" alt="Klava" class="awesome__icon">
                     </div>
                     <h4 class="awesome__block-title">
                         Thoughtful Design
@@ -222,7 +242,7 @@
                 </div>
                 <div class="awesome__block">
                     <div class="awesome__icon-wrapper">
-                        <img src="../TMS/image/molniya.png" alt="molniya" class="awesome__icon">
+                        <img src="../image/molniya.png" alt="molniya" class="awesome__icon">
                     </div>
                     <h4 class="awesome__block-title">
                         Thoughtful Design
@@ -411,69 +431,78 @@
             <p class="reviews__subtitle">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <div class="reviews__block-wrapper">
-                <div class="reviews__block">
-                    <p class="reviews__text">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus
-                        accusamus expedita repellat similique
-                        odio aspernatur ex, architecto eaque
-                        quo suscipit.
-                    </p>
+            <div class="reviews__container-wrapper">
+                <div class="reviews__container">
+                    <div class="reviews__container-block">
+                        <p class="reviews__container-text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </p>
+                    </div>
+                    <div class="reviews__block-wrapper">
+                        <img src="./image/Davis.png" alt="Davis" class="reviews__container-img">
+                        <div class="reviews__block">
+                            <p class="reviews__block-title">
+                                Davis Rhiel Madsen
+                            </p>
+                            <p class="reviews__block-subtitle">
+                                Manager
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="reviews__block">
-                    <p class="reviews__text">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus
-                        accusamus expedita repellat similique
-                        odio aspernatur ex, architecto eaque
-                        quo suscipit.
-                    </p>
+                <div class="reviews__container">
+                    <div class="reviews__container-block">
+                        <p class="reviews__container-text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </p>
+                    </div>
+                    <div class="reviews__block-wrapper">
+                        <img src="./image/Jaydon.png" alt="Jaydon" class="reviews__container-img">
+                        <div class="reviews__block">
+                            <p class="reviews__block-title">
+                                Jaydon Rosser
+                            </p>
+                            <p class="reviews__block-subtitle">
+                                Manager
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="reviews__block">
-                    <p class="reviews__text">
-                        Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus
-                        accusamus expedita repellat similique
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.
-                    </p>
+                <div class="reviews__container">
+                    <div class="reviews__container-block">
+                        <p class="reviews__container-text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </p>
+                    </div>
+                    <div class="reviews__block-wrapper">
+                        <img src="./image/Cooper.png" alt="Cooper" class="reviews__container-img">
+                        <div class="reviews__block">
+                            <p class="reviews__block-title">
+                                Cooper Dorwart
+                            </p>
+                            <p class="reviews__block-subtitle">
+                                Manager
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="reviews__manager">
-                <div class="reviews__container-wrapper">
-                    <img src="../TMS/image/Davis.png" alt="Davis" class="reviews__manager-icon">
-                    <div class="reviews__container">
-                        <p class="reviews__manager-title">
-                            Davis Rhiel Madsen
-                        </p>
-                        <p class="reviews__manager-subtitle">
-                            Manager
-                        </p>
-                    </div>
-                </div>
-                <div class="reviews__container-wrapper">
-                    <img src="../TMS/image/Jaydon.png" alt="Jaydon" class="reviews__manager-icon">
-                    <div class="reviews__container">
-                        <p class="reviews__manager-title">
-                            Jaydon Rosser
-                        </p>
-                        <p class="reviews__manager-subtitle">
-                            Manager
-                        </p>
-                    </div>
-                </div>
-                <div class="reviews__container-wrapper">
-                    <img src="../TMS/image/Cooper.png" alt="Cooper" class="reviews__manager-icon">
-                    <div class="reviews__container">
-                        <p class="reviews__manager-title">
-                            Cooper Dorwart
-                        </p>
-                        <p class="reviews__manager-subtitle">
-                            Manager
-                        </p>
-                    </div>
-                </div>
+            <div class="reviews__container-mobil">
+                <img src="./image/slider.png" alt="first">
+                <img src="./image/slaider_full.png" alt="second">
+                <img src="./image/slider.png" alt="first">
             </div>
         </section>
 <!--Reviews end-->
@@ -514,22 +543,12 @@
             </div>
             <div class="contact__container">
                 <div class="contact__container-block-wrapper">
-                    <div class="contact__container-block">
-                        <label id="name" class="contact__container-label">Name</label>
-                        <input type="text" id="name" class="contact__container-input">
-                    </div>
-                    <div class="contact__container-block">
-                        <label id="email" class="contact__container-label">Email</label>
-                        <input type="email" id="email" class="contact__container-input">
-                    </div>
-                    <div class="contact__container-block">
-                        <label id="password" class="contact__container-label">Password</label>
-                        <input type="password" id="password" class="contact__container-input">
-                    </div>
+                    <input type="text" class="contact__container-input" placeholder="Name">
+                    <input type="email" class="contact__container-input" placeholder="Email">
+                    <input type="password" class="contact__container-input" placeholder="Password">
                 </div>
                 <div class="contact__container-block-wrapper">
-                    <label id="message" class="contact__container-label">Message</label>
-                    <input type="text" id="message" class="contact__container-input">
+                    <input type="text" class="contact__container-input-message" placeholder="Message">
                 </div>
             </div>
             <button class="contact__button">Send Message</button>
@@ -539,34 +558,57 @@
 
 
 <!--Footer start-->
-        <footer class="footer">
-            <div class="footer__container">
-                <div class="footer__icon">
-                    <i class="fa fa-facebook fa-3x"></i>
-                </div>
-                <div class="footer__icon">
-                    <i class="fa fa-twitter fa-3x"></i>
-                </div>
-                <div class="footer__icon">
-                    <i class="fa fa-linkedin fa-3x"></i>
-                </div>
-                <div class="footer__icon">
-                    <i class="fa fa-pinterest fa-3x"></i>
-                </div>
-                <div class="footer__icon">
-                    <i class="fa fa-instagram fa-3x"></i>
-                </div>
-                <div class="footer__icon">
-                    <i class="fa fa-github fa-3x"></i>
-                </div>
-                <div class="footer__icon">
-                    <i class="fa fa-rss fa-3x"></i>
-                </div>
-            </div>
-            <p class="footer__subtext">
-                © 2015 Axure Themes
-            </p>
-        </footer>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__icon">
+            <i class="fa fa-facebook fa-3x"></i>
+        </div>
+        <div class="footer__icon">
+            <i class="fa fa-twitter fa-3x"></i>
+        </div>
+        <div class="footer__icon">
+            <i class="fa fa-linkedin fa-3x"></i>
+        </div>
+        <div class="footer__icon">
+            <i class="fa fa-pinterest fa-3x"></i>
+        </div>
+        <div class="footer__icon">
+            <i class="fa fa-instagram fa-3x"></i>
+        </div>
+        <div class="footer__icon">
+            <i class="fa fa-github fa-3x"></i>
+        </div>
+        <div class="footer__icon">
+            <i class="fa fa-rss fa-3x"></i>
+        </div>
+    </div>
+    <div class="footer__container-mobil">
+        <div class="footer__icon">
+            <i class="fa fa-facebook fa-2x"></i>
+        </div>
+        <div class="footer__icon">
+            <i class="fa fa-twitter fa-2x"></i>
+        </div>
+        <div class="footer__icon">
+            <i class="fa fa-linkedin fa-2x"></i>
+        </div>
+        <div class="footer__icon">
+            <i class="fa fa-pinterest fa-2x"></i>
+        </div>
+        <div class="footer__icon">
+            <i class="fa fa-instagram fa-2x"></i>
+        </div>
+        <div class="footer__icon">
+            <i class="fa fa-github fa-2x"></i>
+        </div>
+        <div class="footer__icon">
+            <i class="fa fa-rss fa-2x"></i>
+        </div>
+    </div>
+    <p class="footer__subtext">
+        © 2015 Axure Themes
+    </p>
+</footer>
 <!--Footer end-->
     </body>
 </html>

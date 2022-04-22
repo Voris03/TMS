@@ -15,9 +15,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 115px;
-    width: 183px;
     height: 75px;
+    margin-left: 115px;
 }
 
 .header__ax {
@@ -35,9 +34,8 @@
 .header__menu-wrapper {
     display: flex;
     flex-direction: row;
-    width: 570px;
     height: 75px;
-    padding-right: 170px;
+    margin-right: 170px;
 }
 
 .header__menu {
@@ -49,6 +47,10 @@
     font-family: "Releway", sans-serif;
     font-size: 14px;
 }
+
+.header__burger-wrapper {
+    display: none;
+}
 /* Header end */
 
 
@@ -57,16 +59,28 @@
 .baner {
     width: 100%;
     height: 1026px;
-    /* margin: 0 auto; */
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../TMS/image/AXIT.png);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/AXIT.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: fill;
     display: flex;
     flex-direction: row;
+}
+
+.baner-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1170px;
+    height: 100%;
+    margin: auto;
 }
 
 .baner__container {
     display: flex;
     flex-direction: column;
-    margin: 300px 0px 0px 170px;
 }
 
 .baner__container-title-wrapper {
@@ -116,6 +130,7 @@
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     color: #FFFFFF;
+    margin-bottom: 50px;
 }
 
 .baner__container-button {
@@ -128,7 +143,6 @@
     border: 1px solid #FFFFFF;
     background-image: none; 
     background-color: transparent;
-    margin-top: 50px;
 }
 
 .baner__block-wrapper {
@@ -140,7 +154,6 @@
     height: 450px;
     border-radius: 10px;
     background-color: #FFFFFF;
-    margin-top: 300px;
     margin-left: 30px;
 }
 
@@ -156,6 +169,7 @@
     align-items: center;
     width: 367px;
     height: 90px;
+    margin-bottom: 45px;
 }
 
 .baner__block-title {
@@ -175,24 +189,22 @@
 .baner__block-container-wrapper {
     display: flex;
     flex-direction: column;
+
 }
 
-.baner__block-container {
-    margin-top: 33px;
+.baner__block-input {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 370px;
+    height: 38px;
+    margin-bottom: 33px;
 }
 
-.baner__block-label {
+.baner__block-input::placeholder {
     width: 370px;
     color: #BDBDBD;
     font-family: "Releway", sans-serif;
     font-size: 14px;
-}
-
-.baner__block-input {
-    display: block;
-    border: none;
-    border-bottom: 1px solid #BDBDBD;
-    width: 370px;
 }
 
 .baner__block-button-wrapper {
@@ -226,14 +238,12 @@
     width: 100%;
     background-color: #F8EFEF;
     display: flex;
-    flex-direction: row;
-    margin-bottom: 99px;
+    justify-content: center;
 }
 
 .social__container {
     width: 470px;
     height: 140px;
-    margin: 0 auto;
 }
 
 .social__title-wrapper {
@@ -241,7 +251,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    padding-bottom: 18px;
+    margin-bottom: 18px;
 }
 
 .social__title {
@@ -266,14 +276,21 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 35px;
     margin-left: 30px;
 }
 
 .social__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 70px;
     height: 70px;
     color: #cccccc;
+}
+
+.social__block-mobil {
+    display: none;
 }
 /* Social end */
 
@@ -282,9 +299,7 @@
 /* Tabs start */
 .tabs {
     width: 1170px;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    margin-left: 170px;
+    margin: 100px auto;
 }
 
 .tabs__tab {
@@ -300,14 +315,15 @@
     font-family: 'Open Sans', sans-serif;
     border: none;
     background-color: transparent;
-    width: 203px;
+    width: 184px;
     height: 40px;
 }
 
 .tabs__button:first-child {
     border: 1px solid #86878B;
     border-radius: 5px 5px 0px 0px;
-    border-bottom-color: #FFFFFF;         
+    border-bottom-color: #FFFFFF; 
+    width: 201px;        
 }
 
 .tabs__container {
@@ -320,7 +336,7 @@
 .tabs__block {
     flex-direction: column;
     width: 70%;
-    padding: 1px 30px 0px 100px;
+    margin: 0 30px 0 100px;
 }
 
 .tabs__title-wrapper {
@@ -342,7 +358,7 @@
     height: 210px;
     align-items: center;
     justify-content: center;
-    padding: 27px 0px 0px 0px;
+    margin-top: 27px;
 }
 
 .tabs__text-first {
@@ -353,7 +369,7 @@
 .tabs__text-second {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    padding: 30px 0px 0px 0px;
+    margin-top: 30px;
 }
 
 .tabs__download-wrapper {
@@ -363,23 +379,16 @@
     justify-content: center;
     align-items: center;
     background-color: #EC7979;
-    margin: 27px 0px 54px 0px;
 }
 
 .tabs__download {
     font-family: 'Releway', sans-serif;
-    width: 270px;
-    height: 58px;
     font-size: 18px;
     background-color: #EC7979;
     opacity: 1;
     filter: alpha(opacity=100);
     color: white;
     border: 0px;
-}
-
-.tabs__image {
-    width: 470px;
 }
 /* Tabs end */
 
@@ -388,9 +397,9 @@
 /* Awesome start */
 .awesome {
     font-family: 'Open Sans', sans-serif;
-    width: 1170px;
+    width: 100%;
     height: 665px;
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 58px;
 }
 
@@ -423,8 +432,10 @@
 }
 
 .awesome__container {
+    width: 1170px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .awesome__block {
@@ -446,7 +457,6 @@
 .awesome__block-title {
     font-family: 'Releway', sans-serif;
     margin-bottom: 47px;
-    
 }
 /* Awesome end */
 
@@ -487,7 +497,7 @@
 .pricing__text {
     color: #86878B;
     text-align: center;
-    margin-bottom: 110px;
+    margin-bottom: 80px;
     font-size: 18px;
     font-family: "Open Sans";
 }
@@ -495,6 +505,7 @@
 .pricing__container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 1200px;
     height: 530px;
     margin: 0 auto;
@@ -503,8 +514,6 @@
 .pricing__block {
     width: 370px;
     height: 510px;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 .pricing__block:hover {
@@ -584,7 +593,6 @@
     width: 1171px;
     height: 630px;
     margin: 0 auto;
-    padding-left: 170px;
 }
 
 .reviews__title-wrapper {
@@ -609,6 +617,8 @@
 }
 
 .reviews__subtitle {
+    width: 1169px;
+    height: 21px;
     font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 18px;
@@ -616,17 +626,18 @@
     margin-bottom: 83px;
 }
 
-.reviews__block-wrapper {
+.reviews__container-wrapper {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 1170px;
-    height: 220px;
+    justify-content: space-between;
 }
 
-.reviews__block {
-    margin: 0px 15px 70px 15px;
+.reviews__container {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+.reviews__container-block {
     background-color: #e2e2e2;
     width: 370px;
     height: 180px;
@@ -636,15 +647,19 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-bottom: 66px;
 }
 
-.reviews__text {
+
+.reviews__container-text {
+    width: 370px;
+    height: 105px;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     color: #86878B;
 }
 
-   .reviews__block:after {
+.reviews__container-block:after {
     z-index: -1;
     position: absolute;
     top: 98.1%;
@@ -657,31 +672,26 @@
     border-right: solid 20px transparent;
 }
 
-.reviews__manager {
+.reviews__block-wrapper {
     display: flex;
     flex-direction: row;
-    height: 70px;
 }
 
-.reviews__container-wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 370px;
+.reviews__container-img {
+    width: 70px;
+    height: 70px;
     margin-right: 30px;
 }
 
-.reviews__container {
+.reviews__block {
+    width: 294px;
+    height: 90px;
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
+    justify-content: space-between;
 }
 
-.reviews__manager-icon {
-    width: 70px;
-    height: 70px;
-}
-
-.reviews__manager-title {
+.reviews__block-title {
     display: flex;
     align-items: center;
     font-family: "Releway", sans-serif;
@@ -691,13 +701,17 @@
     height: 54px;
 }
 
-.reviews__manager-subtitle {
+.reviews__block-subtitle {
     width: 270px;
     height: 21px;
     margin-top: 15px;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     color: #000000;
+}
+
+.reviews__container-mobil {
+    display: none;
 }
 /* Reviews end */
 
@@ -708,7 +722,11 @@
     margin-top: 64px;
     width: 100%;
     height: 442px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../TMS/image/image.png)
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/image.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .stylish__title-wrapper {
@@ -717,6 +735,7 @@
     justify-content: center;
     width: 1170px;
     height: 150px;
+    padding-top: 50px;
     margin: 0 auto;
 }
 
@@ -809,11 +828,12 @@
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     color: #86878B;
+    margin-bottom: 90px;
 }
 
 .contact__container {
     display: flex;
-    margin-top: 90px;
+    flex-direction: row;
 }
 
 .contact__container-block-wrapper:first-child {
@@ -832,12 +852,7 @@
     height: 200px;
 }
 
-.contact__container-block {
-    width: 600px;
-}
-
-.contact__container-label {
-    width: 570px;
+.contact__container-input::placeholder {
     color: #BDBDBD;
     font-family: "Releway", sans-serif;
     font-size: 14px;
@@ -848,19 +863,34 @@
     border: none;
     border-bottom: 1px solid #BDBDBD;
     width: 570px;
+    padding-bottom: 16px;
+    margin-right: 30px;
+}
+
+.contact__container-input-message {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    height: 214px;
+    padding-bottom: 170px;
+}
+
+.contact__container-input-message::placeholder {
+    color: #BDBDBD;
+    font-family: "Releway", sans-serif;
+    font-size: 14px;
 }
 
 .contact__button {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     width: 370px;
     height: 58px;
     background-color: #EC7979;
     border: none;
-    margin-top: 50px;
-    margin-left: 400px;
+    margin: 50px auto;
 
     font-size: 18px;
     font-family: "Releway", sans-serif;
@@ -888,6 +918,10 @@
     margin-top: 35px;
 }
 
+.footer__container-mobil {
+    display: none;
+}
+
 .footer__icon {
     width: 53px;
     height: 53px;
@@ -897,7 +931,7 @@
 .footer__subtext {
     display: flex;
     justify-content: center;
-    width: 1169px;
+    width: 100%;
     height: 21px;
     font-size: 18px;
     font-family: "Releway";
